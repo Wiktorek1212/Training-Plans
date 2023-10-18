@@ -22,7 +22,7 @@ class TrainingPlan:
 class TrainingApp:
     def __init__(self, master):
         self.master = master
-        master.title("Gruby Program")
+        master.title("Grub Program")
         self.master.geometry("800x600")
 
         image = Image.open("hehe.png")
